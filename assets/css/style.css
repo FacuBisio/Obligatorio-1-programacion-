@@ -1,8 +1,8 @@
-    * {
+* {
      margin: 0;
     }
 
-/*****Register/Login*****/
+/**Register/Login**/
 
     body {
       height: 100vh;
@@ -12,13 +12,14 @@
       align-items: center;
       background-color: #f2f2f2;
       font-family: var(--fuente-principal);
+      background-color: var(--color-principal);
     }
 
     .Register-Login-container {
       background-color: #ffffff;
       padding: 30px;
       border-radius: 8px;
-      box-shadow: 0 0 10px #de3aff;
+      box-shadow: 0 0 20px white;
       height: 400px;
       width: 300px;
       text-align: center;
@@ -55,4 +56,4 @@
       background-color: var(--color-hover);
     }
 
-    /******************/
+    /******/
